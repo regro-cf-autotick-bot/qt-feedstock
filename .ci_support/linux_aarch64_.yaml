@@ -1,5 +1,5 @@
-cdt_name:
-- conda
+alsa_lib:
+- '1.2'
 channel_sources:
 - conda-forge
 channel_targets:
@@ -7,9 +7,11 @@ channel_targets:
 cxx_compiler:
 - gxx
 cxx_compiler_version:
-- '13'
+- '14'
 docker_image:
 - quay.io/condaforge/linux-anvil-x86_64:cos7
+expat:
+- '2'
 qt:
 - '5.15'
 target_platform:

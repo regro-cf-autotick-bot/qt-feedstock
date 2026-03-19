@@ -28,6 +28,7 @@ test:
   requires:
     - make                               # [unix]
     - {{ compiler('cxx') }}
+    - libgl-devel                        # [linux]
   files:
     - test/hello.pro
     - test/main-qtwebengine.cpp

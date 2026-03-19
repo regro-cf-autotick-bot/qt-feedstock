@@ -28,25 +28,6 @@ test:
   requires:
     - make                               # [unix]
     - {{ compiler('cxx') }}
-    - xorg-xorgproto                     # [linux]
-    - xorg-libx11                        # [linux]
-    - xorg-libxext                       # [linux]
-    - xorg-libxrender                    # [linux]
-    - libgl-devel                        # [linux]
-    - libegl-devel                       # [linux]
-    - xorg-libxau                        # [linux]
-    - alsa-lib                           # [linux]
-    - gtk2                               # [linux]
-    - libdrm                             # [linux]
-    - xorg-libxcomposite                 # [linux]
-    - xorg-libxcursor                    # [linux]
-    - xorg-libxi                         # [linux]
-    - xorg-librandr                      # [linux]
-    - xorg-libxscrnsaver                 # [linux]
-    - xorg-libxtst                       # [linux]
-    - xorg-libxdamage                    # [linux]
-    - xorg-libxfixes                     # [linux]
-    - expat                              # [linux]
   files:
     - test/hello.pro
     - test/main-qtwebengine.cpp
